@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESQUEÇA TUDO! A REVOLUÇÃO CHEGOU! | NeoFibra XGSPON</title>
+    <link rel="stylesheet" href="aggressive-style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Emergency Alert Banner -->
+    <div class="emergency-alert">
+        <div class="container">
+            <div class="alert-content">
+                <i class="fas fa-fire"></i>
+                <span><strong>OFERTA LIMITADA:</strong> Apenas <span id="remaining-spots">976</span>/1000 instalações gratuitas restantes!</span>
+                <div class="countdown-mini" id="countdown-banner">
+                    <span class="countdown-item">
+                        <span class="countdown-number" id="hours-banner">23</span>
+                        <span class="countdown-label">h</span>
+                    </span>
+                    <span class="countdown-item">
+                        <span class="countdown-number" id="minutes-banner">45</span>
+                        <span class="countdown-label">min</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <div class="logo">
+                        <i class="fas fa-bolt"></i>
+                        <span class="brand-name">Neo<span class="accent">Fibra</span></span>
+                        <div class="tech-badge">XGSPON</div>
+                    </div>
+                </div>
+                <div class="nav-cta">
+                    <div class="phone-urgent">
+                        <i class="fas fa-phone"></i>
+                        <span>LIGUE AGORA: (11) 9999-9999</span>
+                    </div>
+                    <a href="#capture" class="btn-header-urgent">
+                        <i class="fas fa-lightning-bolt"></i>
+                        QUERO AGORA
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section - Ultra Aggressive -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="shock-badge">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <span>PARE TUDO QUE VOCÊ ESTÁ FAZENDO!</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="destroy-line">ESQUEÇA TUDO</span> 
+                    <span class="highlight-line">QUE VOCÊ CONHECE</span>
+                    <span class="about-line">SOBRE INTERNET!</span>
+                </h1>
+                
+                <div class="revolution-box">
+                    <div class="revolution-text">
+                        <h2>CHEGOU na sua cidade o provedor <span class="brand-highlight">NeoFibra</span></h2>
+                        <h3>com a MAIS NOVA TECNOLOGIA <span class="tech-highlight">XGSPON</span></h3>
+                        <p class="revolution-subtitle">A NOVA GERAÇÃO DA FIBRA ÓPTICA</p>
+                    </div>
+                </div>
+
+                <div class="comparison-shock">
+                    <div class="old-providers">
+                        <div class="old-header">
+                            <i class="fas fa-skull"></i>
+                            <span>SEU PROVEDOR ATUAL ENTREGA:</span>
+                        </div>
+                        <div class="old-speeds">
+                            <span class="pathetic-speed">400MB</span>
+                            <span class="pathetic-speed">600MB</span>
+                            <span class="pathetic-speed">800MB</span>
+                        </div>
+                        <div class="old-label">VELOCIDADES PATÉTICAS!</div>
+                    </div>
+                    
+                    <div class="vs-divider">
+                        <span>VS</span>
+                    </div>
+                    
+                    <div class="new-provider">
+                        <div class="new-header">
+                            <i class="fas fa-rocket"></i>
+                            <span>NOSSO PLANO MAIS BÁSICO:</span>
+                        </div>
+                        <div class="new-speed">
+                            <span class="monster-speed">1GB</span>
+                        </div>
+                        <div class="new-label">E PODE CHEGAR ATÉ 10GB!</div>
+                    </div>
+                </div>
+
+                <div class="target-audience">
+                    <div class="audience-item">
+                        <i class="fas fa-building"></i>
+                        <span>EMPRESAS</span>
+                    </div>
+                    <div class="audience-divider">OU</div>
+                    <div class="audience-item">
+                        <i class="fas fa-user-tie"></i>
+                        <span>USUÁRIOS EXIGENTES</span>
+                    </div>
+                </div>
+
+                <div class="scarcity-box">
+                    <div class="scarcity-content">
+                        <div class="scarcity-icon">
+                            <i class="fas fa-fire-flame-curved"></i>
+                        </div>
+                        <div class="scarcity-text">
+                            <h4>INSTALAÇÃO GRATUITA + WiFi 7</h4>
+                            <p><strong>LIMITADO AOS 1000 PRIMEIROS ASSINANTES</strong></p>
+                            <div class="remaining-counter">
+                                <span>Restam apenas: <span id="main-counter">976</span> vagas</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-cta">
+                    <a href="#capture" class="btn-mega-cta">
+                        <i class="fas fa-bolt"></i>
+                        <div class="cta-content">
+                            <span class="cta-main">QUERO INTERNET 1GB AGORA!</span>
+                            <span class="cta-sub">Instalação em 24h - WiFi 7 GRÁTIS</span>
+                        </div>
+                    </a>
+                    
+                    <div class="urgency-timer">
+                        <div class="timer-label">Esta oferta acaba em:</div>
+                        <div class="countdown-main" id="countdown-main">
+                            <div class="countdown-item">
+                                <span class="countdown-number" id="hours-main">23</span>
+                                <span class="countdown-label">HORAS</span>
+                            </div>
+                            <div class="countdown-item">
+                                <span class="countdown-number" id="minutes-main">45</span>
+                                <span class="countdown-label">MIN</span>
+                            </div>
+                            <div class="countdown-item">
+                                <span class="countdown-number" id="seconds-main">30</span>
+                                <span class="countdown-label">SEG</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Technology Revelation -->
+    <section class="technology-revelation">
+        <div class="container">
+            <div class="revelation-header">
+                <h2>A TECNOLOGIA QUE VAI <span class="destroy-text">DESTRUIR</span> SEUS CONCORRENTES</h2>
+                <p class="revelation-subtitle">Enquanto eles ainda usam GPON ultrapassado, nós temos XGSPON!</p>
+            </div>
+            
+            <div class="tech-comparison">
+                <div class="tech-old">
+                    <div class="tech-card obsolete">
+                        <div class="tech-icon">
+                            <i class="fas fa-turtle"></i>
+                        </div>
+                        <h3>GPON (LENTO)</h3>
+                        <div class="tech-specs">
+                            <div class="spec-item bad">
+                                <span class="spec-label">Download:</span>
+                                <span class="spec-value">2.5 Gbps</span>
+                            </div>
+                            <div class="spec-item bad">
+                                <span class="spec-label">Upload:</span>
+                                <span class="spec-value">1.25 Gbps</span>
+                            </div>
+                        </div>
+                        <div class="tech-status obsolete-status">OBSOLETO</div>
+                    </div>
+                </div>
+                
+                <div class="tech-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                    <span>EVOLUÇÃO</span>
+                </div>
+                
+                <div class="tech-new">
+                    <div class="tech-card revolutionary">
+                        <div class="tech-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>XGSPON (MONSTRO)</h3>
+                        <div class="tech-specs">
+                            <div class="spec-item amazing">
+                                <span class="spec-label">Download:</span>
+                                <span class="spec-value">10 Gbps</span>
+                            </div>
+                            <div class="spec-item amazing">
+                                <span class="spec-label">Upload:</span>
+                                <span class="spec-value">10 Gbps</span>
+                            </div>
+                        </div>
+                        <div class="tech-status revolutionary-status">REVOLUÇÃO</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="wifi7-revelation">
+                <div class="wifi7-content">
+                    <div class="wifi7-icon">
+                        <i class="fas fa-wifi"></i>
+                        <span class="wifi-version">7</span>
+                    </div>
+                    <div class="wifi7-text">
+                        <h4>WiFi 7 - A ÚLTIMA GERAÇÃO</h4>
+                        <p>Velocidades de até <strong>46 Gbps</strong> • Latência ultra-baixa • Conectividade simultânea em 3 bandas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shock Plans Section -->
+    <section id="plans" class="shock-plans">
+        <div class="container">
+            <div class="plans-header">
+                <h2>PARE DE PAGAR CARO POR <span class="slow-text">INTERNET LENTA!</span></h2>
+                <p class="plans-subtitle">Nossos preços vão te CHOCAR (positivamente)</p>
+            </div>
+            
+            <div class="plans-grid">
+                <div class="plan-card basic">
+                    <div class="plan-badge">BÁSICO</div>
+                    <div class="plan-header">
+                        <h3>NeoStart</h3>
+                        <div class="plan-speed">1GB</div>
+                        <div class="plan-price">
+                            <span class="currency">R$</span>
+                            <span class="price">89</span>
+                            <span class="period">/mês</span>
+                        </div>
+                        <div class="comparison-text">Concorrentes cobram R$ 150+</div>
+                    </div>
+                    <div class="plan-features">
+                        <div class="feature">
+                            <i class="fas fa-lightning-bolt"></i>
+                            <span>1GB Simétrico Real</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-wifi"></i>
+                            <span>WiFi 7 Incluído</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-tools"></i>
+                            <span>Instalação GRATUITA</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="plan-card power featured">
+                    <div class="plan-badge popular">MAIS ESCOLHIDO</div>
+                    <div class="plan-explosion">💥</div>
+                    <div class="plan-header">
+                        <h3>NeoPower</h3>
+                        <div class="plan-speed">5GB</div>
+                        <div class="plan-price">
+                            <span class="currency">R$</span>
+                            <span class="price">189</span>
+                            <span class="period">/mês</span>
+                        </div>
+                        <div class="comparison-text">Concorrentes: IMPOSSÍVEL!</div>
+                    </div>
+                    <div class="plan-features">
+                        <div class="feature">
+                            <i class="fas fa-rocket"></i>
+                            <span>5GB Simétrico Brutal</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-wifi"></i>
+                            <span>WiFi 7 PRO Premium</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-crown"></i>
+                            <span>IP Fixo + Suporte VIP</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="plan-card monster">
+                    <div class="plan-badge">MONSTRO</div>
+                    <div class="plan-header">
+                        <h3>NeoMonster</h3>
+                        <div class="plan-speed">10GB</div>
+                        <div class="plan-price">
+                            <span class="currency">R$</span>
+                            <span class="price">299</span>
+                            <span class="period">/mês</span>
+                        </div>
+                        <div class="comparison-text">SEM CONCORRÊNCIA!</div>
+                    </div>
+                    <div class="plan-features">
+                        <div class="feature">
+                            <i class="fas fa-fire"></i>
+                            <span>10GB Simétrico INSANO</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-diamond"></i>
+                            <span>WiFi 7 ULTIMATE</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>DDoS Protection Incluso</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="plans-warning">
+                <div class="warning-content">
+                    <i class="fas fa-exclamation-triangle"></i>
+                    <p><strong>ATENÇÃO:</strong> Após as 1000 instalações, os preços DOBRAM e a instalação custará R$ 299!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Capture Form Section -->
+    <section id="capture" class="capture-section">
+        <div class="container">
+            <div class="capture-content">
+                <div class="capture-left">
+                    <div class="capture-header">
+                        <h2>NÃO PERCA ESTA <span class="opportunity-text">OPORTUNIDADE ÚNICA!</span></h2>
+                        <p class="capture-subtitle">Seja um dos 1000 privilegiados com instalação GRATUITA + WiFi 7</p>
+                    </div>
+                    
+                    <div class="capture-benefits">
+                        <div class="benefit-item urgent">
+                            <i class="fas fa-gift"></i>
+                            <div class="benefit-text">
+                                <strong>Instalação GRATUITA</strong>
+                                <span>Valor: R$ 299 - GRÁTIS para você!</span>
+                            </div>
+                        </div>
+                        <div class="benefit-item urgent">
+                            <i class="fas fa-wifi"></i>
+                            <div class="benefit-text">
+                                <strong>WiFi 7 Premium GRÁTIS</strong>
+                                <span>Valor: R$ 899 - GRÁTIS para você!</span>
+                            </div>
+                        </div>
+                        <div class="benefit-item urgent">
+                            <i class="fas fa-clock"></i>
+                            <div class="benefit-text">
+                                <strong>Instalação em 24h</strong>
+                                <span>Urgência máxima para você!</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="total-economy">
+                        <div class="economy-content">
+                            <span class="economy-label">VOCÊ ECONOMIZA:</span>
+                            <span class="economy-value">R$ 1.198</span>
+                            <span class="economy-text">MAS APENAS HOJE!</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="capture-right">
+                    <form class="capture-form" id="captureForm">
+                        <div class="form-header">
+                            <h3>GARANTA SUA VAGA AGORA!</h3>
+                            <div class="spots-remaining">
+                                <i class="fas fa-fire"></i>
+                                <span>Restam <span id="form-counter">976</span> vagas de 1000</span>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="fullName">Nome Completo</label>
+                            <input type="text" id="fullName" name="fullName" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="whatsapp">WhatsApp (Ligamos em 5 min)</label>
+                            <input type="tel" id="whatsapp" name="whatsapp" placeholder="(11) 99999-9999" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="address">Endereço Completo</label>
+                            <input type="text" id="address" name="address" placeholder="Rua, número, bairro, cidade - CEP" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="plan">Escolha seu Plano XGSPON</label>
+                            <select id="plan" name="plan" required>
+                                <option value="">Selecione seu plano</option>
+                                <option value="neostart">NeoStart - 1GB - R$ 89/mês</option>
+                                <option value="neopower">NeoPower - 5GB - R$ 189/mês (POPULAR)</option>
+                                <option value="neomonster">NeoMonster - 10GB - R$ 299/mês</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" id="consent" name="consent" required>
+                                <span class="checkmark"></span>
+                                <span class="checkbox-text">SIM! Quero receber ligação em 5 minutos e aceito os <a href="#" target="_blank">termos</a></span>
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn-capture">
+                            <i class="fas fa-bolt"></i>
+                            <div class="btn-content">
+                                <span class="btn-main">GARANTIR MINHA VAGA AGORA!</span>
+                                <span class="btn-sub">Instalação GRATUITA + WiFi 7</span>
+                            </div>
+                        </button>
+                        
+                        <div class="form-security">
+                            <i class="fas fa-shield-check"></i>
+                            <span>100% Seguro - Sem Spam - Ligamos em 5 min</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final Warning -->
+    <section class="final-warning">
+        <div class="container">
+            <div class="warning-content">
+                <div class="warning-icon">
+                    <i class="fas fa-exclamation-triangle"></i>
+                </div>
+                <div class="warning-text">
+                    <h3>ÚLTIMA CHANCE!</h3>
+                    <p>Esta oferta NUNCA mais será repetida. Após as 1000 instalações, voltar é impossível!</p>
+                    <div class="final-counter">
+                        <span>Vagas restantes: <span id="final-counter">976</span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <i class="fas fa-bolt"></i>
+                        <span class="brand-name">Neo<span class="accent">Fibra</span></span>
+                        <div class="tech-badge">XGSPON</div>
+                    </div>
+                    <p>A revolução da internet chegou na sua cidade!</p>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>LIGUE AGORA:</h4>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>(11) 9999-9999</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-whatsapp"></i>
+                        <span>(11) 9999-9999</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 NeoFibra XGSPON. A revolução começou.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="aggressive-script.js"></script>
+</body>
+</html>
